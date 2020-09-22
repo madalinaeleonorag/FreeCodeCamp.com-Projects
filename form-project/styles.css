@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+}
+.informations {
+    background-image: linear-gradient(180deg, #0058c5, white);
+}
+.informations .header {
+    display: flex;
+    height: 50%;
+    flex-flow: row;
+    justify-content: space-evenly;
+    padding: 30px 100px;
+}
+.informations .header .header-title {
+    font-family: fantasy;
+    font-size: 2.5rem;
+    text-align: end;
+    padding-right: 50px;
+    align-self: center;
+    color: white;
+}
+.informations .header .header-image {
+    width: auto;
+}
+.about {
+    display: flex;
+    flex-flow: wrap;
+    margin: 50px;
+}
+.about .about-column {
+    flex: 0 0 30%;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+}
+.about .about-column .about-column-photo {
+    height: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.about .about-column .about-column-photo img {
+    width: 70%;
+    height: auto;
+}
+.about .about-column .about-column-text {
+    font-size: 1.5rem;
+    color: #0058c5;
+    font-family: fantasy;
+    text-align: center;
+    padding-top: 30px;
+    height: 20px;
+}
+.form {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form .form-category {
+    padding: 20px;
+    width: 50vw;
+}
+.form .form-category .form-category-title {
+    font-family: cursive;
+    padding-bottom: 10px;
+    color: #0058c5;
+}
+.form .form-category .form-fields {
+    border: 1px solid #0058c5;
+    padding: 20px;
+}
+.form .form-category .form-fields input, select {
+    width: 100%;
+    padding: 5px;
+}
+.form .form-category .form-fields input, select {
+    margin: 5px;
+}
+.form .form-category .form-fields .info-text {
+    color: #f44336;
+}
