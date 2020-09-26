@@ -1,8 +1,25 @@
+@font-face {
+    font-family: 'satisfyregular';
+    src: url('../font-files/satisfyregular/satisfy-regular-webfont.woff2') format('woff2'),
+         url('../font-files/satisfyregular/satisfy-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'forumregular';
+    src: url('../font-files/forumregular/forum-regular-webfont.woff2') format('woff2'),
+         url('../font-files/forumregular/forum-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
+    background-color: #f6f6f6;
 }
 .informations {
-    background-image: linear-gradient(180deg, #0058c5, white);
+    background-image: linear-gradient(180deg, #0065b9, #00a7c5, #f6f6f6);
 }
 .informations .header {
     display: flex;
@@ -12,7 +29,7 @@ body {
     padding: 30px 100px;
 }
 .informations .header .header-title {
-    font-family: fantasy;
+    font-family: 'satisfyregular';
     font-size: 2.5rem;
     text-align: end;
     padding-right: 50px;
@@ -45,37 +62,75 @@ body {
 }
 .about .about-column .about-column-text {
     font-size: 1.5rem;
-    color: #0058c5;
-    font-family: fantasy;
+    color: #0065b9;
+    font-family: 'forumregular';
+    font-weight: bold;
     text-align: center;
     padding-top: 30px;
     height: 20px;
+}
+.about .about-column .long-description-column-text {
+    font-size: 1.2rem;
+    color: #0065b9;
+    text-align: center;
+    font-family: 'forumregular';
+    padding-top: 10px;
+    height: 20px;
+}
+.form-title {
+    text-align: center;
+    color: #00a7c5;
+    font-size: 2rem;
+    padding: 0 0 30px 0;
+    font-family: 'satisfyregular';
 }
 .form {
     width: max-content;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid #00a7c540;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: #dff4f8;
 }
 .form .form-category {
     padding: 20px;
     width: 50vw;
 }
 .form .form-category .form-category-title {
-    font-family: cursive;
+    font-family: 'forumregular';
+    font-weight: bold;
     padding-bottom: 10px;
-    color: #0058c5;
+    color: #00a7c5;
+    border-bottom: 1px solid #00a7c540;
 }
 .form .form-category .form-fields {
-    border: 1px solid #0058c5;
     padding: 20px;
 }
 .form .form-category .form-fields input, select {
     width: 100%;
     padding: 5px;
-}
-.form .form-category .form-fields input, select {
     margin: 5px;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 2px solid #00a7c5;
 }
 .form .form-category .form-fields .info-text {
-    color: #f44336;
+    color: #03a8c6;
+    margin-left: 5px;
+}
+.form .submit-button {
+    padding-bottom: 20px;
+    margin-left: 40px;
+}
+.form .submit-button input {
+    border: none;
+    background-color: #00a7c5;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+.form .submit-button input:hover {
+    box-shadow: 2px 4px 12px grey;
 }
