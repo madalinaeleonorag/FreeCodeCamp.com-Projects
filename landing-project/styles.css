@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  background-color: #efefef85;
+}
+
+.header {
+  height: 80%;
+  position: relative;
+  color: white;
+}
+.header .header-image img {
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  height: auto;
+}
+.header .toolbar {
+  width: -webkit-fill-available;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+  align-items: center;
+}
+.header .toolbar .title {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.header .toolbar .toolbar-right-items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header .toolbar .toolbar-right-items .toolbar-item {
+  margin: 0 20px;
+  cursor: pointer;
+}
+.header .toolbar .toolbar-right-items .toolbar-item:hover {
+  color: #dfdfdf;
+}
+.header .toolbar .toolbar-right-items .button-subscribe {
+  text-transform: uppercase;
+  border: 1px solid white;
+  padding: 5px 15px;
+}
+.latest-news {
+}
+.latest-news .news-title {
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.latest-news .news-cards-wrapper {
+  display: flex;
+  flex-flow: row;
+  padding: 20px 40px;
+}
+.latest-news .news-cards-wrapper .news-card {
+  flex: 1 1 30%;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 5px 6px 10px -1px #dfdfdf6e;
+}
+.latest-news .news-cards-wrapper .news-card .card-image {
+  height: 80%;
+}
+.latest-news .news-cards-wrapper .news-card .card-image img {
+  width: 100%;
+  height: auto;
+}
+.latest-news .news-cards-wrapper .news-card .card-content {
+  text-align: center;
+}
+.about-now {
+  display: flex;
+  flex-flow: row;
+  background-color: white;
+}
+.about-now .about-column {
+  flex: 1 1 50%;
+  align-self: center;
+  padding: 20px;
+}
+.about-now .about-column .column-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.about-now .about-column .column-content {
+  white-space: pre-line;
+}
+.footer {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  padding: 50px 0;
+  align-items: center;
+}
+.footer .subscribe-title {
+  text-transform: uppercase;
+}
+.footer .subscribe-details {
+  font-family: cursive;
+}
+.footer .subscribe-input {
+  width: 50%;
+  border: none;
+  background-color: white;
+  height: 50px;
+  box-shadow: 5px 6px 10px -1px #dfdfdf6e;
+  padding: 11px;
+}
+.footer .subscribe-button {
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding: 5px 15px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.subscribe-button:hover {
+  background-color: #dfdfdf;
+}
+.padding-bottom-5px {
+  padding-bottom: 10px;
+}
+.margin-bottom-5px {
+  margin-bottom: 10px;
+}

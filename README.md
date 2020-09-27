@@ -6,3 +6,5 @@ Projects made by following the Responsive Web Design Certification courses from 
     ![''](./tribute-project/tribute-design.png)
 * Form page<br>
     ![''](./form-project/form-design.png)
+* Landing page<br>
+    ![''](./landing-project/landing-design.png)
