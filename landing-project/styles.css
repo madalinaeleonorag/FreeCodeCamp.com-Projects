@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'dancingscript';
+  src: url('../font-files/dancingscript/dancingscript-variablefont_wght-webfont.woff2') format('woff2'),
+       url('../font-files/dancingscript/dancingscript-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'eliseregular';
+  src: url('../font-files/eliseregular/elsie-regular-webfont.woff2') format('woff2'),
+       url('../font-files/eliseregular/elsie-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   background-color: #efefef85;
@@ -26,6 +41,7 @@ body {
 }
 .header .toolbar .title {
   text-transform: uppercase;
+  font-family: 'eliseregular';
   font-size: 1.5rem;
 }
 .header .toolbar .toolbar-right-items {
@@ -42,6 +58,7 @@ body {
 }
 .header .toolbar .toolbar-right-items .button-subscribe {
   text-transform: uppercase;
+  font-family: 'eliseregular';
   border: 1px solid white;
   padding: 5px 15px;
 }
@@ -53,6 +70,7 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
+  font-family: 'eliseregular';
 }
 .latest-news .news-cards-wrapper {
   display: flex;
@@ -84,6 +102,12 @@ body {
 .about-now .about-column {
   flex: 1 1 50%;
   align-self: center;
+}
+.about-now .about-column img {
+  width: 100%;
+  height: auto;
+}
+.about-now .about-column-padding {
   padding: 20px;
 }
 .about-now .about-column .column-title {
@@ -92,9 +116,10 @@ body {
   font-weight: bold;
   padding-bottom: 20px;
   text-transform: uppercase;
+  font-family: 'eliseregular';
 }
 .about-now .about-column .column-content {
-  white-space: pre-line;
+  text-align: center;
 }
 .footer {
   height: 30%;
@@ -106,9 +131,13 @@ body {
 }
 .footer .subscribe-title {
   text-transform: uppercase;
+  font-family: 'eliseregular';
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 .footer .subscribe-details {
-  font-family: cursive;
+  font-family: 'dancingscript';
+  font-size: 1.5rem;
 }
 .footer .subscribe-input {
   width: 50%;
@@ -120,9 +149,11 @@ body {
 }
 .footer .subscribe-button {
   text-transform: uppercase;
+  font-family: 'eliseregular';
   border: 1px solid black;
   padding: 5px 15px;
   cursor: pointer;
+  font-size: 1.5rem;
   margin-top: 5px;
 }
 .subscribe-button:hover {
