@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'dancingscript';
-  src: url('../font-files/dancingscript/dancingscript-variablefont_wght-webfont.woff2') format('woff2'),
-       url('../font-files/dancingscript/dancingscript-variablefont_wght-webfont.woff') format('woff');
+  src: url('../../../font-files/dancingscript/dancingscript-variablefont_wght-webfont.woff2') format('woff2'),
+       url('../../../font-files/dancingscript/dancingscript-variablefont_wght-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'eliseregular';
-  src: url('../font-files/eliseregular/elsie-regular-webfont.woff2') format('woff2'),
-       url('../font-files/eliseregular/elsie-regular-webfont.woff') format('woff');
+  src: url('../../font-files/eliseregular/elsie-regular-webfont.woff2') format('woff2'),
+       url('../../font-files/eliseregular/elsie-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }

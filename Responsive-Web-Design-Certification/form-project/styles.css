@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'satisfyregular';
-    src: url('../font-files/satisfyregular/satisfy-regular-webfont.woff2') format('woff2'),
-         url('../font-files/satisfyregular/satisfy-regular-webfont.woff') format('woff');
+    src: url('../../font-files/satisfyregular/satisfy-regular-webfont.woff2') format('woff2'),
+         url('../../font-files/satisfyregular/satisfy-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'forumregular';
-    src: url('../font-files/forumregular/forum-regular-webfont.woff2') format('woff2'),
-         url('../font-files/forumregular/forum-regular-webfont.woff') format('woff');
+    src: url('../../font-files/forumregular/forum-regular-webfont.woff2') format('woff2'),
+         url('../../font-files/forumregular/forum-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
