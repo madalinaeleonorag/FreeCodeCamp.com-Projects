@@ -13,3 +13,5 @@ Projects made by following the courses from FreeCodeCamp.com
     ![''](./Responsive-Web-Design-Certification/landing-project/landing-design.png)
 * Technical page<br>
     ![''](./Responsive-Web-Design-Certification/technical-project/technical-design.png)
+* Portfolio page<br>
+    ![''](./Responsive-Web-Design-Certification/portfolio-project/portfolio-design.png)
