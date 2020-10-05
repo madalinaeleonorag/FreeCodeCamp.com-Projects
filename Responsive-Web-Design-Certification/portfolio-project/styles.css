@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'dancingscript';
+    src: url('../../font-files/dancingscript/dancingscript-variablefont_wght-webfont.woff2') format('woff2'),
+         url('../../font-files/dancingscript/dancingscript-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    margin: 0px;
+}
+.header {
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .header-img {
+    height: 100%;
+    width: 100%;
+    filter: brightness(0.7);
+}
+.header .header-title {
+    position: absolute;
+    color: white;
+}
+.header .header-title .header-user-name {
+    font-size: 3.5rem;
+    font-family: 'dancingscript';
+}
+.header .header-title .header-page-type {
+    opacity: 0.5;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+.content-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.content-grid .grid-item-text {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    align-items: center;
+}
+.content-grid .grid-item {
+    width: 100%;
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+}
+.content-grid .grid-item-square-1 {
+    grid-area: 1/3/3/5;
+    width: 100%;
+    background-color: lightgray;
+}
+.content-grid .grid-item-square-2 {
+    grid-area: 1/1/3/3;
+    width: 100%;
+    background-color: lightgray;
+}
+.content-grid .grid-item .grid-image {
+    width: 100%;
+    height: 100%;
+    -webkit-mask-size: cover;
+    filter: brightness(0.7);
+}
+.content-grid .grid-item-square-1, .grid-item-square-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.content-grid .grid-item-square-1 .grid-image {
+    width: 100%;
+    height: auto;
+    filter: brightness(0.7);
+}
+.content-grid .grid-item-square-2 .grid-image {
+    width: 100%;
+    height: auto;
+    filter: brightness(0.7);
+}
+.grid-image:hover {
+    filter: none !important;
+}
+.arrow {
+    position: absolute;
+    align-self: center;
+    fill: white;
+}
+.to-right-arrow {
+    transform: scale(-2,2);
+}
+.left {
+    justify-content: flex-end;
+}
+.right {
+    justify-content: flex-start;
+}
+.content-grid .grid-item-text .grid-text-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    word-break: break-all;
+}
+.content-grid .grid-item-text .grid-text-subtitle {
+    opacity: 0.7;
+    font-size: 1.2vw;
+}
