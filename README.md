@@ -1,8 +1,4 @@
 Projects made by following the courses from FreeCodeCamp.com
-# Homepage
-
-![''](./homepage/homepage-design.png)
-
 # Responsive Web Design Certification Projects
  
 * Tribute page<br>
