@@ -1,6 +1,8 @@
 Projects made by following the courses from FreeCodeCamp.com
 # Responsive Web Design Certification Projects
  
+![''](./certifications/Responsive-Web-Design-Certification.png)
+
 * Tribute page<br>
     ![''](./Responsive-Web-Design-Certification/tribute-project/tribute-design.png)
 * Form page<br>
