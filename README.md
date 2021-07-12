@@ -21,3 +21,7 @@ Projects made by following the courses from FreeCodeCamp.com
     ![''](./JavaScript-Algorithms-and-Data-Structures/roman-numeral-converter/screenshoot.png)
 * Caesars cipher<br>
     ![''](./JavaScript-Algorithms-and-Data-Structures/caesars-cipher/screenshoot.png)
+* Phone validator<br>
+    ![''](./JavaScript-Algorithms-and-Data-Structures/phone-validator/screenshoot.png)
+* Cash register<br>
+    ![''](./JavaScript-Algorithms-and-Data-Structures/cash-register/screenshoot.png)

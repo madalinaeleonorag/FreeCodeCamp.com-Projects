@@ -1,0 +1,42 @@
+body {
+    background-color: #e5e580;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100vh;
+    font-family: ui-monospace;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.title span {
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 1px #868640;
+}
+
+input[type="text"] {
+    margin: 2vh 0;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    box-shadow: none;
+    background-color: white;
+    color: #868640;
+    border-width: 1px;
+    padding: 1vh 1vw;
+    border-color: #868640;
+}
+
+button {
+    margin: 2vh 0;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    box-shadow: none;
+    background-color: #868640;
+    color: white;
+    border-width: 1px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 1vh 1vw;
+}
