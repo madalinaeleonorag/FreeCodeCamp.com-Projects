@@ -1,5 +1,5 @@
 body {
-    background-color: cadetblue;
+    background-color: rosybrown;
     margin: 0;
     display: flex;
     flex-flow: column;
@@ -13,7 +13,7 @@ body {
 .title span {
     font-weight: bold;
     color: white;
-    text-shadow: 2px 1px #083732;
+    text-shadow: 2px 1px #885858;
 }
 
 input[type="text"] {
@@ -22,8 +22,21 @@ input[type="text"] {
     border-radius: 8px;
     box-shadow: none;
     background-color: white;
-    color: #083732;
+    color: #885858;
     border-width: 1px;
     padding: 1vh 1vw;
-    border-color: #083732;
+    border-color: #885858;
+}
+
+button {
+    margin: 2vh 0;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    box-shadow: none;
+    background-color: #885858;
+    color: white;
+    border-width: 1px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 1vh 1vw;
 }

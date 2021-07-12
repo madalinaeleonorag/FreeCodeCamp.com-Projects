@@ -16,4 +16,6 @@ Projects made by following the courses from FreeCodeCamp.com
 # JavaScript Algorithms and Data Structures Projects
 ![''](./certifications/JavaScript-Algorithms-and-Data-Structures-Certification.png)
 * Palindrome checker<br>
-    ![''](./JavaScript-Algorithms-and-Data-Structures-Certification/palindrome-checker-project/palindrome-checker-project.png)
+    ![''](./JavaScript-Algorithms-and-Data-Structures/palindrome-checker/palindrome-checker.png)
+* Roman numeral converter<br>
+    ![''](./JavaScript-Algorithms-and-Data-Structures/roman-numeral-converter/roman-numeral-project.png.png)
