@@ -1,10 +1,14 @@
-function checkPalindrome() {
-  let str = document.getElementById('toTest').value;
-  let stringToTest = str.toLowerCase();
-  stringToTest = stringToTest.replace(/\W/g, "");
-  stringToTest = stringToTest.replace(" ", "");
-  stringToTest = stringToTest.replace("_", "");
-  stringToTest = stringToTest.replace(".", "");
-  const result = stringToTest == stringToTest.split("").reverse().join("");
-    alert(result ? 'Is a Palindrome :)' : 'nope, it\'s not a palindrome :(')
+function caesarCipher() {
+  let str = document.getElementById("toTest").value;
+  str = str.toUpperCase();
+  let result = str.replace(/[A-Z]/g, rot13);
+
+  function rot13(correspondance) {
+    const charCode = correspondance.charCodeAt();
+    return String.fromCharCode(
+      charCode + 13 <= 90 ? charCode + 13 : ((charCode + 13) % 90) + 64
+    );
+  }
+
+  alert(`Your text is: ${result}`);
 }
