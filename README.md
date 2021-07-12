@@ -4,18 +4,20 @@ Projects made by following the courses from FreeCodeCamp.com
 ![''](./certifications/Responsive-Web-Design-Certification.png)
 
 * Tribute page<br>
-    ![''](./Responsive-Web-Design-Certification/tribute-project/tribute-design.png)
+    ![''](./Responsive-Web-Design-Certification/tribute-project/screenshoot.png)
 * Form page<br>
-    ![''](./Responsive-Web-Design-Certification/form-project/form-design.png)
+    ![''](./Responsive-Web-Design-Certification/form-project/screenshoot.png)
 * Landing page<br>
-    ![''](./Responsive-Web-Design-Certification/landing-project/landing-design.png)
+    ![''](./Responsive-Web-Design-Certification/landing-project/screenshoot.png)
 * Technical page<br>
-    ![''](./Responsive-Web-Design-Certification/technical-project/technical-design.png)
+    ![''](./Responsive-Web-Design-Certification/technical-project/screenshoot.png)
 * Portfolio page<br>
-    ![''](./Responsive-Web-Design-Certification/portfolio-project/portfolio-design.png)
+    ![''](./Responsive-Web-Design-Certification/portfolio-project/screenshoot.png)
 # JavaScript Algorithms and Data Structures Projects
 ![''](./certifications/JavaScript-Algorithms-and-Data-Structures-Certification.png)
 * Palindrome checker<br>
-    ![''](./JavaScript-Algorithms-and-Data-Structures/palindrome-checker/palindrome-checker-project.png)
+    ![''](./JavaScript-Algorithms-and-Data-Structures/palindrome-checker/screenshoot.png)
 * Roman numeral converter<br>
-    ![''](./JavaScript-Algorithms-and-Data-Structures/roman-numeral-converter/roman-numeral-project.png)
+    ![''](./JavaScript-Algorithms-and-Data-Structures/roman-numeral-converter/screenshoot.png)
+* Caesars cipher<br>
+    ![''](./JavaScript-Algorithms-and-Data-Structures/caesars-cipher/screenshoot.png)
