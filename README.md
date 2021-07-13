@@ -2,7 +2,7 @@ Projects made by following the courses from FreeCodeCamp.com
 
 This includes:
 * Responsive Web Design Certification (300 hours)
-** Basic HTML and HTML5
+  * Basic HTML and HTML5
 * JavaScript Algorithms and Data Structures Certification (300 hours)
 * Front End Development Libraries Certification (300 hours)
 * Data Visualization Certification (300 hours)
